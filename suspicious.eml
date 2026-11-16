@@ -1,0 +1,65 @@
+Return-Path: <bounce@mailer-promo-update.example.net>
+Received: from unknown (HELO mail.suspicious-relay.example.org) (203.0.113.45)
+	by mx.example.com with ESMTP id 9A8B7C6D5E
+	for <employee@example.com>; Mon, 16 Nov 2026 20:15:32 +0000 (UTC)
+Authentication-Results: mx.example.com;
+	spf=fail (mx.example.com: domain of billing@trusted-bank.example.com does not designate 203.0.113.45 as permitted sender) smtp.mailfrom=bounce@mailer-promo-update.example.net;
+	dkim=fail reason="signature verification failed";
+	dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=trusted-bank.example.com
+From: "Trusted Bank Security" <billing@trusted-bank.example.com>
+Reply-To: <urgent-support@verify-account-now.example.org>
+To: <employee@example.com>
+Subject: [URGENT] Immediate Action Required: Account Suspended Within 24 Hours
+Date: Mon, 16 Nov 2026 20:15:30 +0000
+Message-ID: <20261116201530.12345@suspicious-relay.example.org>
+X-Mailer: BulkMailer Pro v4.2
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_NextPart_000_001A_01DB385A.9F8E7D60"
+
+------=_NextPart_000_001A_01DB385A.9F8E7D60
+Content-Type: multipart/alternative; boundary="----=_NextPart_001_001B_01DB385A.9F8E7D60"
+
+------=_NextPart_001_001B_01DB385A.9F8E7D60
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+URGENT SECURITY NOTICE
+
+Dear Valued Customer,
+
+We detected unusual sign-in activity on your corporate banking profile. Your access has been temporarily restricted.
+
+Please review the attached invoice/statement (Invoice_99281.pdf.exe) or verify your credentials immediately at:
+http://198.51.100.77/login/verify?session=99281
+
+Failure to confirm your details within 24 hours will result in permanent account closure.
+
+Regards,
+Trusted Bank Security Team
+
+------=_NextPart_001_001B_01DB385A.9F8E7D60
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<p><strong>URGENT SECURITY NOTICE</strong></p>
+<p>Dear Valued Customer,</p>
+<p>We detected unusual sign-in activity on your corporate banking profile. Your access has been temporarily restricted.</p>
+<p>Please verify your credentials immediately by clicking the secure link below:</p>
+<p><a href="http://198.51.100.77/login/verify?session=99281">https://www.trusted-bank.example.com/security/verify</a></p>
+<p>Alternatively, open the attached document for offline verification.</p>
+<p>Failure to confirm your details within 24 hours will result in permanent account closure.</p>
+<p>Regards,<br>Trusted Bank Security Team</p>
+</body>
+</html>
+
+------=_NextPart_001_001B_01DB385A.9F8E7D60--
+
+------=_NextPart_000_001A_01DB385A.9F8E7D60
+Content-Type: application/octet-stream; name="Invoice_99281.pdf.exe"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_99281.pdf.exe"
+
+VGhpcyBpcyBhIGhhcm1sZXNzIHRlc3QgcGF5bG9hZCBmb3Igc2Nhbm5lciB0ZXN0aW5nIG9ubHku
+------=_NextPart_000_001A_01DB385A.9F8E7D60--
